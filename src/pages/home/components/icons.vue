@@ -84,17 +84,19 @@
  .icons >>> .swiper-container
   height:0
   padding-bottom:50%
- .icon
-   float:left
-   width:25%
-   height:25vw
-   text-align:center
-   .icon-img
-    margin: 0 auto
-    height: 15vw
-    width:60%
-    padding-bottom:5%
-   .icon-desc
-    padding-bottom:5%
-    ellipsis()
+ .icons
+  margin-top:.1rem
+	 .icon
+	   float:left
+	   width:25%
+	   height:25vw
+	   text-align:center
+	   .icon-img
+	    margin: 0 auto
+	    height: 15vw
+	    width:60%
+	    padding-bottom:5%
+	   .icon-desc
+	    padding-bottom:5%
+	    ellipsis()
 </style>
